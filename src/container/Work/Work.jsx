@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Work.scss';
+import { worksData } from '../../constants';
 
 const Work = () => {
   const [works, setWorks] = useState([]);
@@ -11,13 +12,9 @@ const Work = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
-  useEffect(() => {
-    // const query = '*[_type == "works"]';
-
-    // client.fetch(query).then((data) => {
-    //   setWorks(data);
-    //   setFilterWork(data);
-    // });
+  useEffect(() => { 
+      setWorks(worksData);
+      setFilterWork(worksData);
   }, []);
 
   const handleWorkFilter = (item) => {
