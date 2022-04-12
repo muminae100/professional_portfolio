@@ -3,7 +3,6 @@ import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
-import { urlFor, client } from '../../client';
 import './Work.scss';
 
 const Work = () => {
@@ -13,12 +12,12 @@ const Work = () => {
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
   useEffect(() => {
-    const query = '*[_type == "works"]';
+    // const query = '*[_type == "works"]';
 
-    client.fetch(query).then((data) => {
-      setWorks(data);
-      setFilterWork(data);
-    });
+    // client.fetch(query).then((data) => {
+    //   setWorks(data);
+    //   setFilterWork(data);
+    // });
   }, []);
 
   const handleWorkFilter = (item) => {
@@ -62,7 +61,7 @@ const Work = () => {
             <div
               className="app__work-img app__flex"
             >
-              <img src={urlFor(work.imgUrl)} alt={work.name} />
+              <img src={work.imgUrl} alt={work.name} />
 
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
