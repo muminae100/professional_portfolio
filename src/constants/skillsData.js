@@ -27,9 +27,9 @@ const skillsData = [
         icon: images.graphql
     },
     {
-        name: "Scss", 
+        name: "Bootstrap", 
         bgColor: "", 
-        icon: images.sass
+        icon: images.bootstrap
     }
 ]
 

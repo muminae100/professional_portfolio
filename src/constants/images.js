@@ -1,5 +1,7 @@
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
+import whatsapp from '../assets/whatsapp.png';
+
 import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
@@ -17,6 +19,8 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import bootstrap from '../assets/bootstrap.png';
+import aws from '../assets/aws.jpg';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -24,6 +28,8 @@ import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
+import simon from '../assets/simon.png';
+import dev_simon from '../assets/dev_simon.JPG';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 import flag from '../assets/kenyan_flag.png';
@@ -42,6 +48,7 @@ import covid_app from '../assets/screenshot-covid-tracker.png';
 import resume from '../assets/my-resume.png';
 import jobs_website from '../assets/jobs-website.png';
 import flask_blog from '../assets/flask_blog.JPG';
+import kevin from '../assets/kevin.jpg';
 
 
 const images = {
@@ -85,6 +92,12 @@ const images = {
   resume,
   jobs_website,
   flask_blog,
+  kevin,
+  aws,
+  bootstrap,
+  whatsapp,
+  simon,
+  dev_simon,
 };
 
 export default images;

@@ -19,12 +19,12 @@ const Footer = () => {
   const handleSubmit = () => {
     setLoading(true);
 
-    const contact = {
-      _type: 'contact',
-      name: formData.username,
-      email: formData.email,
-      message: formData.message,
-    };
+    // const contact = {
+    //   _type: 'contact',
+    //   name: formData.name,
+    //   email: formData.email,
+    //   message: formData.message,
+    // };
 
     // client.create(contact)
     //   .then(() => {
@@ -44,8 +44,8 @@ const Footer = () => {
           <a href="mailto:smuminaetx100@gmail.com" className="p-text">smuminaetx100@gmail.com</a>
         </div>
         <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+254741674737" className="p-text">+254 741674737</a>
+          <img src={images.whatsapp} alt="whatsapp" />
+          <a href="https://wa.me/+254741674737" className="p-text">+254 741674737</a>
         </div>
       </div>
       {!isFormSubmitted ? (

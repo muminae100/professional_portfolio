@@ -7,10 +7,9 @@ const worksData = [
         projectLink:"https://shareimages.netlify.app/", 
         codeLink:"https://github.com/muminae100/image_sharing_social_app" , 
         imgUrl: images.image_app,
-        tags: {
-            0: "React",
-            1: "All"
-        }
+        tags: [
+            "React", "All"
+        ]
     },
     {
         title:"Memories Mern app", 
@@ -18,11 +17,9 @@ const worksData = [
         projectLink:"https://ourmemories-app.netlify.app/", 
         codeLink:"https://github.com/muminae100/memories_mern_app" , 
         imgUrl: images.memories_app,
-        tags: {
-            0: "React",
-            1: "Express",
-            2: "All"
-        }
+        tags: [
+            "React","Express","All"
+        ]
     },
     {
         title:"React COVID Tracker", 
@@ -30,21 +27,19 @@ const worksData = [
         projectLink:"https://covid19worldcases-tracker.netlify.app/", 
         codeLink:"https://github.com/muminae100/covid-19-tracker" , 
         imgUrl: images.covid_app,
-        tags: {
-            0: "React",
-            2: "All"
-        }
+        tags: [
+            "React", "All"
+        ]
     },
     {
-        title:"Free classifieds", 
-        description:"Free classifieds flask website" , 
+        title:"Flask jobs website", 
+        description:"Flask jobs website" , 
         projectLink:"http://findjobskenya.herokuapp.com/", 
         codeLink:"https://github.com/muminae100/findjobskenya" , 
         imgUrl: images.jobs_website,
-        tags: {
-            0: "Flask",
-            2: "All"
-        }
+        tags: [
+            "Flask", "All"
+        ]
     },
     {
         title:"My Resume", 
@@ -52,10 +47,9 @@ const worksData = [
         projectLink:"https://simon-react-resume.netlify.app/", 
         codeLink:"https://github.com/muminae100/resume" , 
         imgUrl: images.resume,
-        tags: {
-            0: "React",
-            2: "All"
-        }
+        tags: [
+            "React", "All"
+        ]
     },
     {
         title:"Blog", 
@@ -63,10 +57,9 @@ const worksData = [
         projectLink:"https://cymo-blog.herokuapp.com/11", 
         codeLink:"https://github.com/muminae100/flask_blog" , 
         imgUrl: images.flask_blog,
-        tags:{
-            0: "Flask",
-            1: "All"
-        }
+        tags: [
+            "Flask", "All"
+        ]
     }
 ]
 
