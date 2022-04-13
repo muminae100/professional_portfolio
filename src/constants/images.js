@@ -36,6 +36,9 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
+import image_app from '../assets/website-screenshot.png';
+import memories_app from '../assets/screenshot-ourmemories.png';
+
 const images = {
   email,
   mobile,
@@ -71,6 +74,8 @@ const images = {
   nb,
   skype,
   spotify,
+  image_app,
+  memories_app,
 };
 
 export default images;

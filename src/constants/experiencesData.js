@@ -1,7 +1,14 @@
-import images from './images';
-
 const experiencesData = [
-    {title:"Frontend development", description:"I am a good frontend developer with 2 years of experience", imageUrl: images.about01}
+    {
+    year:"Currently",
+    works: [
+        {
+        name:"Freelancer",
+        company:"Upwork",
+        desc:"I am currently a freelancer on Upwork"
+        }
+    ]
+    }
 ]
 
 export default experiencesData;
