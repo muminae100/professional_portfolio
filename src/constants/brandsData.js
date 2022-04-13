@@ -2,8 +2,9 @@ import images from './images';
 
 const brandsData = [
     {
+    _id: 1,
     name: "Amazon",  
-    imageUrl: images.amazon
+    imgUrl: images.amazon
     }
 ]
 

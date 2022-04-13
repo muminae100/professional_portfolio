@@ -38,6 +38,11 @@ import spotify from '../assets/spotify.png';
 
 import image_app from '../assets/website-screenshot.png';
 import memories_app from '../assets/screenshot-ourmemories.png';
+import covid_app from '../assets/screenshot-covid-tracker.png';
+import resume from '../assets/my-resume.png';
+import jobs_website from '../assets/jobs-website.png';
+import flask_blog from '../assets/flask_blog.JPG';
+
 
 const images = {
   email,
@@ -76,6 +81,10 @@ const images = {
   spotify,
   image_app,
   memories_app,
+  covid_app,
+  resume,
+  jobs_website,
+  flask_blog,
 };
 
 export default images;
