@@ -31,6 +31,7 @@ import profile from '../assets/profile.png';
 import simon from '../assets/simon.png';
 import dev_simon from '../assets/dev_simon.JPG';
 import circle from '../assets/circle.svg';
+import gif from '../assets/44TR.gif';
 import logo from '../assets/logo.png';
 import flag from '../assets/kenyan_flag.png';
 
@@ -100,6 +101,7 @@ const images = {
   simon,
   dev_simon,
   web3_app,
+  gif,
 };
 
 export default images;
