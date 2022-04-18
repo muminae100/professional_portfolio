@@ -48,6 +48,7 @@ import covid_app from '../assets/screenshot-covid-tracker.png';
 import resume from '../assets/my-resume.png';
 import jobs_website from '../assets/jobs-website.png';
 import flask_blog from '../assets/flask_blog.JPG';
+import web3_app from '../assets/web3_app.JPG';
 import kevin from '../assets/kevin.jpg';
 
 
@@ -98,6 +99,7 @@ const images = {
   whatsapp,
   simon,
   dev_simon,
+  web3_app,
 };
 
 export default images;
